@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.brand__logo {
+    width: 50px;
+}
+
+.navbar {
+    background-color: rgb(232, 225, 223);
+}
+
+main {
+    margin-top: 3.5rem;
+}
+
+.carousel-item {
+    height: 28rem;
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-item::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, black);
+    position: absolute;
+}
+
+#about {
+    margin-top: 3rem;
+}
+
+.card--top {
+    margin-top: 4rem;
+}
+
+.card-menu img {
+    height: 22rem;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: rgb(75, 35, 35) !important;
+    border: none !important;
+}
+
+.btn-dark-css:hover {
+    background-color: rgb(46, 45, 45) !important;
+    color: white !important;
+}
+
+.btn-dark-css {
+    background-color: transparent !important;
+    color: black !important;
+    border: 1px solid black !important;
+    margin: 0 5px !important;
+}
+
+section {
+    scroll-margin-top: 6rem;
+}
